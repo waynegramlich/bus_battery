@@ -48,6 +48,10 @@ $CMP OPTO_ISOLATOR
 D 8-pin Opto-isolator
 $ENDCMP
 #
+$CMP REGULATOR_321
+D Voltage Regulator {Names(Vin Gnd Vout) = Pins(3 2 1)}
+$ENDCMP
+#
 $CMP SCHOTTKY_DIODE_VERT
 D Schottky Diode
 $ENDCMP

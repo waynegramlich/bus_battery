@@ -1,4 +1,60 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 13 Jan 2015 05:04:03 AM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 13 Jan 2015 06:13:48 AM PST
+
+BeginCmp
+TimeStamp = /54B55BBF;
+Reference = C1;
+ValeurCmp = 18pF;
+IdModule  = Bus_Battery:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51A87;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = Bus_Battery:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51965;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = Bus_Battery:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B55A8F;
+Reference = C4;
+ValeurCmp = 18pF;
+IdModule  = Bus_Battery:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B525C2;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = Bus_Battery:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51A17;
+Reference = D1;
+ValeurCmp = SD101C-TR;
+IdModule  = Bus_Battery:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B55796;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = Bus_Battery:T1_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51D99;
+Reference = G1;
+ValeurCmp = OSHW_LOGO;
+IdModule  = Bus_Battery:OSHW_LOGO_250mil;
+EndCmp
 
 BeginCmp
 TimeStamp = /54B51790;
@@ -26,6 +82,111 @@ TimeStamp = /54B5182D;
 Reference = H4;
 ValeurCmp = 3MM_HOLE;
 IdModule  = Bus_Battery:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B519B4;
+Reference = J1;
+ValeurCmp = TERMINATE_JUMPER;
+IdModule  = Bus_Battery:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B518C7;
+Reference = N1;
+ValeurCmp = BUS_SLAVE_HEADER;
+IdModule  = Bus_Battery:Pin_Header_Straight_2x05_Shrouded;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51DD4;
+Reference = N2;
+ValeurCmp = FTDI_HEADER;
+IdModule  = Bus_Battery:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51A4A;
+Reference = N3;
+ValeurCmp = AVR_ISP_HEADER;
+IdModule  = Bus_Battery:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51C70;
+Reference = R1;
+ValeurCmp = 120;
+IdModule  = Bus_Battery:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B549E5;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Bus_Battery:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B54056;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = Bus_Battery:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B5413A;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Bus_Battery:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B556C7;
+Reference = R5;
+ValeurCmp = 470;
+IdModule  = Bus_Battery:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51ED0;
+Reference = SW1;
+ValeurCmp = 2_LEAD_PUSH_BUTTON;
+IdModule  = Bus_Battery:Button_6.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B518FE;
+Reference = U1;
+ValeurCmp = MCP2562;
+IdModule  = Bus_Battery:DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B5231F;
+Reference = U2;
+ValeurCmp = L78L05AC;
+IdModule  = Bus_Battery:TO92_123;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B5189A;
+Reference = U3;
+ValeurCmp = ATMEGA328_DIP28;
+IdModule  = Bus_Battery:DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51F3F;
+Reference = U4;
+ValeurCmp = OPTO_ISOLATOR;
+IdModule  = Bus_Battery:DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51AEE;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = Bus_Battery:Crystal_HC49-U_Vertical;
 EndCmp
 
 EndListe
