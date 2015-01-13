@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 13 Jan 2015 05:04:03 AM PST
+
+BeginCmp
+TimeStamp = /54B51790;
+Reference = H1;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Battery:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B517DC;
+Reference = H2;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Battery:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B51806;
+Reference = H3;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Battery:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B5182D;
+Reference = H4;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Battery:MountingHole_3mm;
+EndCmp
+
+EndListe
