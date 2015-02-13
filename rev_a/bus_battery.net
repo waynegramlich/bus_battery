@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wayne/public_html/projects/bus_battery/rev_a/bus_battery.sch)
-    (date "Mon 26 Jan 2015 03:31:34 PM PST")
+    (date "Thu 12 Feb 2015 10:23:39 PM PST")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref H1)
@@ -84,7 +84,7 @@
       (tstamp 54B51C70))
     (comp (ref G1)
       (value OSHW_LOGO)
-      (footprint Bus_Battery:OSHW_LOGO_250mil)
+      (footprint Bus_Battery:OSHW_LOGO_150mil)
       (libsource (lib bus_battery) (part OSHW_LOGO))
       (sheetpath (names /) (tstamps /))
       (tstamp 54B51D99))
@@ -232,7 +232,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54C625F1))
     (comp (ref R7)
-      (value 220)
+      (value 220_BUS_SIP6)
       (footprint Bus_Battery:Pin_Header_Straight_1x06)
       (libsource (lib bus_battery) (part R_VERT_ISO_SIP6))
       (sheetpath (names /) (tstamps /))
